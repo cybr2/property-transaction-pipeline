@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+from datetime import date
 
 from app.summary import build_summary
 
@@ -27,6 +28,4 @@ class Store:
         dates = [str(r["sale_date"]) for r in self.rows if r.get("sale_date")]
         if not dates:
             return None
-        from datetime import date
-
         return date.fromisoformat(max(dates))
