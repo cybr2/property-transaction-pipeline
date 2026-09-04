@@ -101,73 +101,74 @@ export default function Home() {
         : null;
 
   return (
-    <main className="mx-auto max-w-5xl px-4 py-10 sm:px-6 sm:py-14">
+    <main className="mx-auto flex h-screen max-w-6xl flex-col overflow-hidden px-4 py-6 sm:px-6">
       <header className="entrance">
         <div className="label">Data · 1,603 clean rows · {META}</div>
-        <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">
+        <h1 className="mt-1 text-2xl font-semibold tracking-tight sm:text-3xl">
           Property Transactions
         </h1>
-        <p className="mt-3 max-w-xl text-sm text-[color:var(--g500)]">
-          Singapore condo resale summaries computed from a cleaned
-          transactions dataset, served by the same process that renders this page.
+        <p className="mt-2 max-w-2xl text-sm text-[color:var(--g500)]">
+          Singapore condo resale summaries computed from a cleaned transactions
+          dataset, served by the same process that renders this page.
         </p>
       </header>
 
-      <section className="entrance entrance-1 mt-10">
-        <div className="label">01 — Projects</div>
-        <div className="card mt-3 overflow-x-auto">
-          <table className="w-full min-w-[560px] border-collapse text-sm">
-            <thead>
-              <tr className="label text-left">
-                <th className="px-4 py-3 font-normal">Project</th>
-                <th className="px-4 py-3 font-normal">District</th>
-                <th className="px-4 py-3 text-right font-normal">Median PSF</th>
-                <th className="px-4 py-3 text-right font-normal">Transactions</th>
-              </tr>
-            </thead>
-            <tbody>
-              {projects.map((p, i) => (
-                <tr
-                  key={p.project_name}
-                  className={`cursor-pointer border-t transition-colors hover:bg-[color:var(--g100)] ${
-                    selected === p.project_name ? "bg-[color:var(--g100)]" : ""
-                  }`}
-                  onClick={() => setSelected(p.project_name)}
-                >
-                  <td className="px-4 py-2.5 font-medium">{p.project_name}</td>
-                  <td className="mono px-4 py-2.5 text-xs text-[color:var(--g500)]">
-                    {p.district}
-                  </td>
-                  <td className="mono px-4 py-2.5 text-right text-xs">
-                    {fmtInt(p.median_psf)}
-                  </td>
-                  <td className="mono px-4 py-2.5 text-right text-xs">
-                    {fmtInt(p.transaction_count)}
-                  </td>
+      <div className="entrance entrance-1 mt-5 grid min-h-0 flex-1 gap-6 lg:grid-cols-2">
+        <section className="flex min-h-0 flex-col">
+          <div className="label">01 — Projects</div>
+          <div className="card mt-2 min-h-0 flex-1 overflow-y-auto">
+            <table className="w-full min-w-[520px] border-collapse text-sm">
+              <thead className="sticky top-0 bg-[color:var(--g50)]">
+                <tr className="label text-left">
+                  <th className="px-4 py-3 font-normal">Project</th>
+                  <th className="px-4 py-3 font-normal">District</th>
+                  <th className="px-4 py-3 text-right font-normal">Median PSF</th>
+                  <th className="px-4 py-3 text-right font-normal">Transactions</th>
                 </tr>
-              ))}
-              {!loading && projects.length === 0 && (
-                <tr>
-                  <td colSpan={4} className="px-4 py-8 text-center text-sm text-[color:var(--g500)]">
-                    No projects.
-                  </td>
-                </tr>
-              )}
-              {loading && (
-                <tr>
-                  <td colSpan={4} className="px-4 py-8 text-center text-sm text-[color:var(--g500)]">
-                    Loading…
-                  </td>
-                </tr>
-              )}
-            </tbody>
-          </table>
-        </div>
-      </section>
+              </thead>
+              <tbody>
+                {projects.map((p, i) => (
+                  <tr
+                    key={p.project_name}
+                    className={`cursor-pointer border-t transition-colors hover:bg-[color:var(--g100)] ${
+                      selected === p.project_name ? "bg-[color:var(--g100)]" : ""
+                    }`}
+                    onClick={() => setSelected(p.project_name)}
+                  >
+                    <td className="px-4 py-2.5 font-medium">{p.project_name}</td>
+                    <td className="mono px-4 py-2.5 text-xs text-[color:var(--g500)]">
+                      {p.district}
+                    </td>
+                    <td className="mono px-4 py-2.5 text-right text-xs">
+                      {fmtInt(p.median_psf)}
+                    </td>
+                    <td className="mono px-4 py-2.5 text-right text-xs">
+                      {fmtInt(p.transaction_count)}
+                    </td>
+                  </tr>
+                ))}
+                {!loading && projects.length === 0 && (
+                  <tr>
+                    <td colSpan={4} className="px-4 py-8 text-center text-sm text-[color:var(--g500)]">
+                      No projects.
+                    </td>
+                  </tr>
+                )}
+                {loading && (
+                  <tr>
+                    <td colSpan={4} className="px-4 py-8 text-center text-sm text-[color:var(--g500)]">
+                      Loading…
+                    </td>
+                  </tr>
+                )}
+              </tbody>
+            </table>
+          </div>
+        </section>
 
-      <section className="entrance entrance-2 mt-12 grid gap-8 lg:grid-cols-2">
-        <div>
-          <div className="label">02 — Detail</div>
+        <div className="flex min-h-0 flex-col gap-6 overflow-y-auto">
+          <section>
+            <div className="label">02 — Detail</div>
           <div className="card mt-3 p-5">
             {!selected && (
               <p className="text-sm text-[color:var(--g500)]">Select a project.</p>
@@ -233,9 +234,9 @@ export default function Home() {
               </>
             )}
           </div>
-        </div>
+        </section>
 
-        <div>
+        <section>
           <div className="label">03 — Estimate</div>
           <div className="card mt-3 p-5">
             {!selected && (
@@ -296,11 +297,12 @@ export default function Home() {
               </>
             )}
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
+      </div>
 
       {error && (
-        <footer className="entrance entrance-3 hairline mt-12 pt-4">
+        <footer className="entrance entrance-3 hairline mt-4 pt-3">
           <p className="mono text-xs text-[color:var(--g500)]">
             {error} — is the API running on the same origin?
           </p>
