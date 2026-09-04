@@ -1,0 +1,3102 @@
+{
+  "generated_at": "2026-09-04T19:13:25.040121+00:00",
+  "source_rows": 1910,
+  "cleaned_rows": 1603,
+  "duplicates_dropped": 160,
+  "excluded": {
+    "missing_area": 74,
+    "outlier_psf": 28,
+    "invalid_price": 45
+  },
+  "districts": {
+    "D10": {
+      "transaction_count": 170,
+      "median_psf": 1923.87,
+      "median_price": 1684500.0
+    },
+    "D20": {
+      "transaction_count": 37,
+      "median_psf": 2143.15,
+      "median_price": 1952000.0
+    },
+    "D05": {
+      "transaction_count": 135,
+      "median_psf": 2047.3,
+      "median_price": 1858000.0
+    },
+    "D03": {
+      "transaction_count": 131,
+      "median_psf": 2238.81,
+      "median_price": 2039000.0
+    },
+    "D19": {
+      "transaction_count": 83,
+      "median_psf": 1898.28,
+      "median_price": 1649000.0
+    },
+    "D23": {
+      "transaction_count": 57,
+      "median_psf": 1915.07,
+      "median_price": 1561000.0
+    },
+    "D27": {
+      "transaction_count": 45,
+      "median_psf": 1864.48,
+      "median_price": 1798000.0
+    },
+    "D26": {
+      "transaction_count": 46,
+      "median_psf": 1814.1,
+      "median_price": 1583000.0
+    },
+    "D07": {
+      "transaction_count": 67,
+      "median_psf": 1899.15,
+      "median_price": 1806000.0
+    },
+    "D09": {
+      "transaction_count": 156,
+      "median_psf": 1937.96,
+      "median_price": 1720500.0
+    },
+    "D15": {
+      "transaction_count": 62,
+      "median_psf": 1876.18,
+      "median_price": 1749500.0
+    },
+    "D01": {
+      "transaction_count": 101,
+      "median_psf": 2367.27,
+      "median_price": 2135000.0
+    },
+    "D08": {
+      "transaction_count": 29,
+      "median_psf": 2044.36,
+      "median_price": 1763000.0
+    },
+    "D11": {
+      "transaction_count": 62,
+      "median_psf": 2001.34,
+      "median_price": 1719500.0
+    },
+    "D18": {
+      "transaction_count": 48,
+      "median_psf": 2051.07,
+      "median_price": 1832000.0
+    },
+    "D04": {
+      "transaction_count": 75,
+      "median_psf": 2365.83,
+      "median_price": 2244000.0
+    },
+    "D14": {
+      "transaction_count": 61,
+      "median_psf": 2045.09,
+      "median_price": 1916000.0
+    },
+    "D12": {
+      "transaction_count": 48,
+      "median_psf": 1922.26,
+      "median_price": 1795000.0
+    },
+    "D21": {
+      "transaction_count": 40,
+      "median_psf": 1839.28,
+      "median_price": 1735000.0
+    },
+    "D13": {
+      "transaction_count": 14,
+      "median_psf": 1837.8,
+      "median_price": 1689500.0
+    },
+    "D16": {
+      "transaction_count": 16,
+      "median_psf": 1909.3,
+      "median_price": 1342000.0
+    },
+    "D22": {
+      "transaction_count": 24,
+      "median_psf": 2058.49,
+      "median_price": 2005000.0
+    },
+    "D25": {
+      "transaction_count": 60,
+      "median_psf": 1822.74,
+      "median_price": 1604500.0
+    },
+    "D02": {
+      "transaction_count": 36,
+      "median_psf": 2300.45,
+      "median_price": 2117000.0
+    }
+  },
+  "top5_projects_by_median_psf_2025": [
+    {
+      "project_name": "Maxwell Chambers Suites",
+      "district": "D01",
+      "median_psf": 2821.26,
+      "transaction_count": 8
+    },
+    {
+      "project_name": "Anson Residences",
+      "district": "D02",
+      "median_psf": 2666.32,
+      "transaction_count": 4
+    },
+    {
+      "project_name": "Eunos Ville",
+      "district": "D14",
+      "median_psf": 2616.38,
+      "transaction_count": 4
+    },
+    {
+      "project_name": "Chin Swee Heights",
+      "district": "D03",
+      "median_psf": 2581.82,
+      "transaction_count": 8
+    },
+    {
+      "project_name": "Raffles Place Tower",
+      "district": "D01",
+      "median_psf": 2552.92,
+      "transaction_count": 5
+    }
+  ],
+  "projects": {
+    "Stevens Suites": {
+      "project_name": "Stevens Suites",
+      "district": "D10",
+      "transaction_count": 24,
+      "median_psf": 1639.95,
+      "median_price": 1248000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 4,
+          "median_psf": 1386.99,
+          "median_price": 1059500.0
+        },
+        "2021": {
+          "transaction_count": 3,
+          "median_psf": 1435.41,
+          "median_price": 1218000.0
+        },
+        "2022": {
+          "transaction_count": 1,
+          "median_psf": 1146.48,
+          "median_price": 814000.0
+        },
+        "2023": {
+          "transaction_count": 1,
+          "median_psf": 1880.0,
+          "median_price": 940000.0
+        },
+        "2024": {
+          "transaction_count": 5,
+          "median_psf": 2452.2,
+          "median_price": 1271000.0
+        },
+        "2025": {
+          "transaction_count": 10,
+          "median_psf": 1831.93,
+          "median_price": 1478000.0
+        }
+      }
+    },
+    "Bishan Green": {
+      "project_name": "Bishan Green",
+      "district": "D20",
+      "transaction_count": 23,
+      "median_psf": 2248.01,
+      "median_price": 1952000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 4,
+          "median_psf": 2523.94,
+          "median_price": 1833000.0
+        },
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 1177.8,
+          "median_price": 727500.0
+        },
+        "2022": {
+          "transaction_count": 2,
+          "median_psf": 2082.7,
+          "median_price": 1875500.0
+        },
+        "2023": {
+          "transaction_count": 4,
+          "median_psf": 2442.84,
+          "median_price": 2454000.0
+        },
+        "2024": {
+          "transaction_count": 4,
+          "median_psf": 2137.63,
+          "median_price": 2005500.0
+        },
+        "2025": {
+          "transaction_count": 7,
+          "median_psf": 1754.16,
+          "median_price": 1713000.0
+        }
+      }
+    },
+    "Alexandra Central": {
+      "project_name": "Alexandra Central",
+      "district": "D05",
+      "transaction_count": 25,
+      "median_psf": 1795.16,
+      "median_price": 1779000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 1881.24,
+          "median_price": 1661000.0
+        },
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 1526.84,
+          "median_price": 1350000.0
+        },
+        "2022": {
+          "transaction_count": 6,
+          "median_psf": 2036.33,
+          "median_price": 2093000.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 1990.0,
+          "median_price": 1592000.0
+        },
+        "2024": {
+          "transaction_count": 7,
+          "median_psf": 1640.93,
+          "median_price": 1700000.0
+        },
+        "2025": {
+          "transaction_count": 5,
+          "median_psf": 2093.71,
+          "median_price": 2014000.0
+        }
+      }
+    },
+    "Clementi Park Residences": {
+      "project_name": "Clementi Park Residences",
+      "district": "D05",
+      "transaction_count": 16,
+      "median_psf": 2288.58,
+      "median_price": 2102000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 2342.14,
+          "median_price": 3279000.0
+        },
+        "2021": {
+          "transaction_count": 1,
+          "median_psf": 2772.61,
+          "median_price": 2871000.0
+        },
+        "2023": {
+          "transaction_count": 7,
+          "median_psf": 2146.48,
+          "median_price": 1909000.0
+        },
+        "2024": {
+          "transaction_count": 2,
+          "median_psf": 2184.6,
+          "median_price": 2235000.0
+        },
+        "2025": {
+          "transaction_count": 5,
+          "median_psf": 2379.82,
+          "median_price": 1825000.0
+        }
+      }
+    },
+    "Outram Park Residences": {
+      "project_name": "Outram Park Residences",
+      "district": "D03",
+      "transaction_count": 17,
+      "median_psf": 2321.72,
+      "median_price": 1988000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 2427.07,
+          "median_price": 2181000.0
+        },
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 2361.15,
+          "median_price": 1823000.0
+        },
+        "2022": {
+          "transaction_count": 3,
+          "median_psf": 2307.92,
+          "median_price": 2391000.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 2321.72,
+          "median_price": 2533000.0
+        },
+        "2024": {
+          "transaction_count": 7,
+          "median_psf": 2420.43,
+          "median_price": 1283000.0
+        }
+      }
+    },
+    "Sengkang Riviera": {
+      "project_name": "Sengkang Riviera",
+      "district": "D19",
+      "transaction_count": 23,
+      "median_psf": 1888.97,
+      "median_price": 1667000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 5,
+          "median_psf": 2087.14,
+          "median_price": 1347000.0
+        },
+        "2022": {
+          "transaction_count": 5,
+          "median_psf": 2043.48,
+          "median_price": 1667000.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 2355.09,
+          "median_price": 2132000.0
+        },
+        "2024": {
+          "transaction_count": 4,
+          "median_psf": 2013.74,
+          "median_price": 2169500.0
+        },
+        "2025": {
+          "transaction_count": 6,
+          "median_psf": 1576.56,
+          "median_price": 1107500.0
+        }
+      }
+    },
+    "Choa Chu Kang Residences": {
+      "project_name": "Choa Chu Kang Residences",
+      "district": "D23",
+      "transaction_count": 16,
+      "median_psf": 1816.76,
+      "median_price": 1530000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 1787.08,
+          "median_price": 1771000.0
+        },
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 2012.57,
+          "median_price": 1773500.0
+        },
+        "2022": {
+          "transaction_count": 3,
+          "median_psf": 1855.48,
+          "median_price": 1438000.0
+        },
+        "2023": {
+          "transaction_count": 1,
+          "median_psf": 1584.99,
+          "median_price": 1602000.0
+        },
+        "2024": {
+          "transaction_count": 2,
+          "median_psf": 1643.99,
+          "median_price": 1236500.0
+        },
+        "2025": {
+          "transaction_count": 7,
+          "median_psf": 1789.66,
+          "median_price": 1738000.0
+        }
+      }
+    },
+    "Sembawang Springs": {
+      "project_name": "Sembawang Springs",
+      "district": "D27",
+      "transaction_count": 17,
+      "median_psf": 1628.17,
+      "median_price": 1540000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 1390.96,
+          "median_price": 999000.0
+        },
+        "2021": {
+          "transaction_count": 3,
+          "median_psf": 1605.48,
+          "median_price": 2094000.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 1836.3,
+          "median_price": 1540000.0
+        },
+        "2024": {
+          "transaction_count": 4,
+          "median_psf": 1858.51,
+          "median_price": 2259500.0
+        },
+        "2025": {
+          "transaction_count": 5,
+          "median_psf": 1793.55,
+          "median_price": 1635000.0
+        }
+      }
+    },
+    "Springleaf Green": {
+      "project_name": "Springleaf Green",
+      "district": "D26",
+      "transaction_count": 21,
+      "median_psf": 1829.04,
+      "median_price": 1625000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 3,
+          "median_psf": 1916.87,
+          "median_price": 1591000.0
+        },
+        "2022": {
+          "transaction_count": 2,
+          "median_psf": 1895.26,
+          "median_price": 2045000.0
+        },
+        "2023": {
+          "transaction_count": 5,
+          "median_psf": 1834.97,
+          "median_price": 1861000.0
+        },
+        "2024": {
+          "transaction_count": 4,
+          "median_psf": 1887.92,
+          "median_price": 1419500.0
+        },
+        "2025": {
+          "transaction_count": 7,
+          "median_psf": 1443.63,
+          "median_price": 1424000.0
+        }
+      }
+    },
+    "Kallang Riverside": {
+      "project_name": "Kallang Riverside",
+      "district": "D07",
+      "transaction_count": 20,
+      "median_psf": 1939.78,
+      "median_price": 2059500.0,
+      "by_year": {
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 1874.78,
+          "median_price": 2232000.0
+        },
+        "2022": {
+          "transaction_count": 1,
+          "median_psf": 1568.74,
+          "median_price": 2055000.0
+        },
+        "2023": {
+          "transaction_count": 7,
+          "median_psf": 2622.9,
+          "median_price": 2064000.0
+        },
+        "2024": {
+          "transaction_count": 4,
+          "median_psf": 2111.38,
+          "median_price": 1381500.0
+        },
+        "2025": {
+          "transaction_count": 6,
+          "median_psf": 1957.4,
+          "median_price": 2026500.0
+        }
+      }
+    },
+    "Ang Mo Kio Grove": {
+      "project_name": "Ang Mo Kio Grove",
+      "district": "D20",
+      "transaction_count": 14,
+      "median_psf": 1903.17,
+      "median_price": 2007500.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 1142.17,
+          "median_price": 948000.0
+        },
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 1961.57,
+          "median_price": 1756000.0
+        },
+        "2022": {
+          "transaction_count": 1,
+          "median_psf": 1320.98,
+          "median_price": 1889000.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 1642.79,
+          "median_price": 2152000.0
+        },
+        "2024": {
+          "transaction_count": 5,
+          "median_psf": 2310.98,
+          "median_price": 2291000.0
+        },
+        "2025": {
+          "transaction_count": 2,
+          "median_psf": 1586.45,
+          "median_price": 1338000.0
+        }
+      }
+    },
+    "Kim Seng Plaza": {
+      "project_name": "Kim Seng Plaza",
+      "district": "D09",
+      "transaction_count": 24,
+      "median_psf": 1917.47,
+      "median_price": 1877000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 3,
+          "median_psf": 2020.69,
+          "median_price": 1697000.0
+        },
+        "2022": {
+          "transaction_count": 4,
+          "median_psf": 2617.93,
+          "median_price": 2711500.0
+        },
+        "2023": {
+          "transaction_count": 6,
+          "median_psf": 2114.53,
+          "median_price": 1908500.0
+        },
+        "2024": {
+          "transaction_count": 6,
+          "median_psf": 1474.32,
+          "median_price": 1314500.0
+        },
+        "2025": {
+          "transaction_count": 5,
+          "median_psf": 2276.22,
+          "median_price": 1951000.0
+        }
+      }
+    },
+    "Katong Seaview": {
+      "project_name": "Katong Seaview",
+      "district": "D15",
+      "transaction_count": 10,
+      "median_psf": 2042.39,
+      "median_price": 1581500.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 1661.43,
+          "median_price": 1266000.0
+        },
+        "2021": {
+          "transaction_count": 1,
+          "median_psf": 1263.17,
+          "median_price": 1308000.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 2120.64,
+          "median_price": 1108000.0
+        },
+        "2024": {
+          "transaction_count": 1,
+          "median_psf": 2214.08,
+          "median_price": 1572000.0
+        },
+        "2025": {
+          "transaction_count": 3,
+          "median_psf": 2241.98,
+          "median_price": 2446000.0
+        }
+      }
+    },
+    "Farrer Road Court": {
+      "project_name": "Farrer Road Court",
+      "district": "D10",
+      "transaction_count": 14,
+      "median_psf": 2322.75,
+      "median_price": 2187500.0,
+      "by_year": {
+        "2021": {
+          "transaction_count": 3,
+          "median_psf": 2727.99,
+          "median_price": 2758000.0
+        },
+        "2022": {
+          "transaction_count": 2,
+          "median_psf": 2588.27,
+          "median_price": 2756500.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 2103.34,
+          "median_price": 1535000.0
+        },
+        "2024": {
+          "transaction_count": 5,
+          "median_psf": 1868.43,
+          "median_price": 1621000.0
+        },
+        "2025": {
+          "transaction_count": 1,
+          "median_psf": 1691.61,
+          "median_price": 1311000.0
+        }
+      }
+    },
+    "Cuscaden Residences": {
+      "project_name": "Cuscaden Residences",
+      "district": "D09",
+      "transaction_count": 20,
+      "median_psf": 1818.57,
+      "median_price": 2013000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 1571.63,
+          "median_price": 1668000.0
+        },
+        "2022": {
+          "transaction_count": 3,
+          "median_psf": 1868.73,
+          "median_price": 1936000.0
+        },
+        "2023": {
+          "transaction_count": 7,
+          "median_psf": 2140.26,
+          "median_price": 2173000.0
+        },
+        "2024": {
+          "transaction_count": 2,
+          "median_psf": 1597.63,
+          "median_price": 1943500.0
+        },
+        "2025": {
+          "transaction_count": 7,
+          "median_psf": 1855.32,
+          "median_price": 1792000.0
+        }
+      }
+    },
+    "Maxwell Chambers Suites": {
+      "project_name": "Maxwell Chambers Suites",
+      "district": "D01",
+      "transaction_count": 27,
+      "median_psf": 2448.1,
+      "median_price": 2270000.0,
+      "by_year": {
+        "2021": {
+          "transaction_count": 3,
+          "median_psf": 2448.1,
+          "median_price": 2373000.0
+        },
+        "2022": {
+          "transaction_count": 3,
+          "median_psf": 2120.33,
+          "median_price": 1786000.0
+        },
+        "2023": {
+          "transaction_count": 6,
+          "median_psf": 1946.01,
+          "median_price": 1925000.0
+        },
+        "2024": {
+          "transaction_count": 7,
+          "median_psf": 2614.67,
+          "median_price": 2775000.0
+        },
+        "2025": {
+          "transaction_count": 8,
+          "median_psf": 2821.26,
+          "median_price": 2567500.0
+        }
+      }
+    },
+    "Lavender Street Loft": {
+      "project_name": "Lavender Street Loft",
+      "district": "D07",
+      "transaction_count": 28,
+      "median_psf": 2031.15,
+      "median_price": 1886500.0,
+      "by_year": {
+        "2021": {
+          "transaction_count": 4,
+          "median_psf": 1773.18,
+          "median_price": 1073500.0
+        },
+        "2022": {
+          "transaction_count": 2,
+          "median_psf": 2073.36,
+          "median_price": 1658500.0
+        },
+        "2023": {
+          "transaction_count": 4,
+          "median_psf": 2112.91,
+          "median_price": 2173000.0
+        },
+        "2024": {
+          "transaction_count": 7,
+          "median_psf": 2264.52,
+          "median_price": 2021000.0
+        },
+        "2025": {
+          "transaction_count": 11,
+          "median_psf": 1810.68,
+          "median_price": 1758000.0
+        }
+      }
+    },
+    "Farrer Park Residences": {
+      "project_name": "Farrer Park Residences",
+      "district": "D08",
+      "transaction_count": 14,
+      "median_psf": 2031.22,
+      "median_price": 1746000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 1544.43,
+          "median_price": 1561000.0
+        },
+        "2021": {
+          "transaction_count": 1,
+          "median_psf": 2754.83,
+          "median_price": 2854000.0
+        },
+        "2022": {
+          "transaction_count": 3,
+          "median_psf": 2416.36,
+          "median_price": 1530000.0
+        },
+        "2023": {
+          "transaction_count": 2,
+          "median_psf": 2374.43,
+          "median_price": 2203500.0
+        },
+        "2024": {
+          "transaction_count": 2,
+          "median_psf": 1708.91,
+          "median_price": 1751000.0
+        },
+        "2025": {
+          "transaction_count": 5,
+          "median_psf": 1807.74,
+          "median_price": 1752000.0
+        }
+      }
+    },
+    "Novena Heights": {
+      "project_name": "Novena Heights",
+      "district": "D11",
+      "transaction_count": 21,
+      "median_psf": 1796.13,
+      "median_price": 1642000.0,
+      "by_year": {
+        "2021": {
+          "transaction_count": 4,
+          "median_psf": 1266.45,
+          "median_price": 1454500.0
+        },
+        "2022": {
+          "transaction_count": 5,
+          "median_psf": 2389.45,
+          "median_price": 1754000.0
+        },
+        "2023": {
+          "transaction_count": 4,
+          "median_psf": 1851.0,
+          "median_price": 1562000.0
+        },
+        "2024": {
+          "transaction_count": 2,
+          "median_psf": 1257.3,
+          "median_price": 1153000.0
+        },
+        "2025": {
+          "transaction_count": 6,
+          "median_psf": 2430.32,
+          "median_price": 2091000.0
+        }
+      }
+    },
+    "River Valley Court": {
+      "project_name": "River Valley Court",
+      "district": "D09",
+      "transaction_count": 21,
+      "median_psf": 1921.33,
+      "median_price": 1709000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 1565.79,
+          "median_price": 1709000.0
+        },
+        "2021": {
+          "transaction_count": 3,
+          "median_psf": 1606.11,
+          "median_price": 1441000.0
+        },
+        "2022": {
+          "transaction_count": 2,
+          "median_psf": 1464.79,
+          "median_price": 1616000.0
+        },
+        "2023": {
+          "transaction_count": 4,
+          "median_psf": 1901.79,
+          "median_price": 1579000.0
+        },
+        "2024": {
+          "transaction_count": 4,
+          "median_psf": 2181.88,
+          "median_price": 2239000.0
+        },
+        "2025": {
+          "transaction_count": 7,
+          "median_psf": 2058.12,
+          "median_price": 1502000.0
+        }
+      }
+    },
+    "Newton Suites": {
+      "project_name": "Newton Suites",
+      "district": "D11",
+      "transaction_count": 24,
+      "median_psf": 2073.53,
+      "median_price": 1961000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 1722.01,
+          "median_price": 1534500.0
+        },
+        "2021": {
+          "transaction_count": 1,
+          "median_psf": 1640.77,
+          "median_price": 1626000.0
+        },
+        "2022": {
+          "transaction_count": 3,
+          "median_psf": 2025.23,
+          "median_price": 1941000.0
+        },
+        "2023": {
+          "transaction_count": 7,
+          "median_psf": 1469.76,
+          "median_price": 1311000.0
+        },
+        "2024": {
+          "transaction_count": 6,
+          "median_psf": 2524.89,
+          "median_price": 2481000.0
+        },
+        "2025": {
+          "transaction_count": 5,
+          "median_psf": 2291.66,
+          "median_price": 2733000.0
+        }
+      }
+    },
+    "Pasir Ris Seaview": {
+      "project_name": "Pasir Ris Seaview",
+      "district": "D18",
+      "transaction_count": 29,
+      "median_psf": 2090.32,
+      "median_price": 1999000.0,
+      "by_year": {
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 1787.86,
+          "median_price": 1556500.0
+        },
+        "2022": {
+          "transaction_count": 6,
+          "median_psf": 1779.38,
+          "median_price": 1589000.0
+        },
+        "2023": {
+          "transaction_count": 5,
+          "median_psf": 1851.63,
+          "median_price": 1991000.0
+        },
+        "2024": {
+          "transaction_count": 7,
+          "median_psf": 2398.56,
+          "median_price": 2177000.0
+        },
+        "2025": {
+          "transaction_count": 9,
+          "median_psf": 2087.54,
+          "median_price": 2021000.0
+        }
+      }
+    },
+    "Marina Bay Suites": {
+      "project_name": "Marina Bay Suites",
+      "district": "D01",
+      "transaction_count": 14,
+      "median_psf": 2201.11,
+      "median_price": 1845500.0,
+      "by_year": {
+        "2021": {
+          "transaction_count": 1,
+          "median_psf": 2198.76,
+          "median_price": 2135000.0
+        },
+        "2022": {
+          "transaction_count": 1,
+          "median_psf": 2700.0,
+          "median_price": 1971000.0
+        },
+        "2023": {
+          "transaction_count": 7,
+          "median_psf": 2734.58,
+          "median_price": 2187000.0
+        },
+        "2024": {
+          "transaction_count": 2,
+          "median_psf": 1768.17,
+          "median_price": 1834500.0
+        },
+        "2025": {
+          "transaction_count": 3,
+          "median_psf": 1802.58,
+          "median_price": 1397000.0
+        }
+      }
+    },
+    "Telok Blangah Ridge": {
+      "project_name": "Telok Blangah Ridge",
+      "district": "D04",
+      "transaction_count": 20,
+      "median_psf": 2188.65,
+      "median_price": 2240500.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 2062.11,
+          "median_price": 2313000.0
+        },
+        "2021": {
+          "transaction_count": 3,
+          "median_psf": 2173.42,
+          "median_price": 2306000.0
+        },
+        "2022": {
+          "transaction_count": 1,
+          "median_psf": 1877.63,
+          "median_price": 1823000.0
+        },
+        "2023": {
+          "transaction_count": 6,
+          "median_psf": 2419.65,
+          "median_price": 1840000.0
+        },
+        "2024": {
+          "transaction_count": 4,
+          "median_psf": 2245.64,
+          "median_price": 2281500.0
+        },
+        "2025": {
+          "transaction_count": 4,
+          "median_psf": 2269.21,
+          "median_price": 2443500.0
+        }
+      }
+    },
+    "Kembangan Court": {
+      "project_name": "Kembangan Court",
+      "district": "D14",
+      "transaction_count": 14,
+      "median_psf": 2152.64,
+      "median_price": 1954500.0,
+      "by_year": {
+        "2022": {
+          "transaction_count": 4,
+          "median_psf": 2152.64,
+          "median_price": 1864000.0
+        },
+        "2023": {
+          "transaction_count": 2,
+          "median_psf": 2624.18,
+          "median_price": 2261000.0
+        },
+        "2024": {
+          "transaction_count": 5,
+          "median_psf": 1898.58,
+          "median_price": 1970000.0
+        },
+        "2025": {
+          "transaction_count": 3,
+          "median_psf": 1703.22,
+          "median_price": 1294000.0
+        }
+      }
+    },
+    "Pasir Panjang Residences": {
+      "project_name": "Pasir Panjang Residences",
+      "district": "D05",
+      "transaction_count": 28,
+      "median_psf": 2224.81,
+      "median_price": 2106500.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 2671.03,
+          "median_price": 2788000.0
+        },
+        "2021": {
+          "transaction_count": 6,
+          "median_psf": 2046.31,
+          "median_price": 2325000.0
+        },
+        "2022": {
+          "transaction_count": 5,
+          "median_psf": 2310.02,
+          "median_price": 1816000.0
+        },
+        "2023": {
+          "transaction_count": 2,
+          "median_psf": 2638.78,
+          "median_price": 3054500.0
+        },
+        "2024": {
+          "transaction_count": 7,
+          "median_psf": 1955.18,
+          "median_price": 1958000.0
+        },
+        "2025": {
+          "transaction_count": 6,
+          "median_psf": 2152.88,
+          "median_price": 2005000.0
+        }
+      }
+    },
+    "Serangoon Gardens": {
+      "project_name": "Serangoon Gardens",
+      "district": "D19",
+      "transaction_count": 19,
+      "median_psf": 2108.03,
+      "median_price": 1688000.0,
+      "by_year": {
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 2061.19,
+          "median_price": 2410500.0
+        },
+        "2022": {
+          "transaction_count": 3,
+          "median_psf": 2002.83,
+          "median_price": 1482000.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 2318.1,
+          "median_price": 1217000.0
+        },
+        "2024": {
+          "transaction_count": 2,
+          "median_psf": 2134.51,
+          "median_price": 2046000.0
+        },
+        "2025": {
+          "transaction_count": 9,
+          "median_psf": 2304.68,
+          "median_price": 1688000.0
+        }
+      }
+    },
+    "Harbourfront Residences": {
+      "project_name": "Harbourfront Residences",
+      "district": "D04",
+      "transaction_count": 25,
+      "median_psf": 2411.95,
+      "median_price": 2244000.0,
+      "by_year": {
+        "2021": {
+          "transaction_count": 4,
+          "median_psf": 2660.47,
+          "median_price": 1963000.0
+        },
+        "2022": {
+          "transaction_count": 7,
+          "median_psf": 2418.4,
+          "median_price": 2578000.0
+        },
+        "2023": {
+          "transaction_count": 2,
+          "median_psf": 1823.74,
+          "median_price": 1387500.0
+        },
+        "2024": {
+          "transaction_count": 3,
+          "median_psf": 2925.09,
+          "median_price": 2595000.0
+        },
+        "2025": {
+          "transaction_count": 9,
+          "median_psf": 2333.8,
+          "median_price": 2059000.0
+        }
+      }
+    },
+    "Opera Estate": {
+      "project_name": "Opera Estate",
+      "district": "D15",
+      "transaction_count": 22,
+      "median_psf": 1905.99,
+      "median_price": 1938000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 1780.95,
+          "median_price": 1934000.0
+        },
+        "2021": {
+          "transaction_count": 1,
+          "median_psf": 1227.04,
+          "median_price": 1216000.0
+        },
+        "2022": {
+          "transaction_count": 4,
+          "median_psf": 2058.65,
+          "median_price": 2213500.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 1333.67,
+          "median_price": 1381000.0
+        },
+        "2024": {
+          "transaction_count": 5,
+          "median_psf": 2460.35,
+          "median_price": 2389000.0
+        },
+        "2025": {
+          "transaction_count": 7,
+          "median_psf": 1697.8,
+          "median_price": 1569000.0
+        }
+      }
+    },
+    "Bugis Junction Residences": {
+      "project_name": "Bugis Junction Residences",
+      "district": "D07",
+      "transaction_count": 19,
+      "median_psf": 1757.1,
+      "median_price": 1685000.0,
+      "by_year": {
+        "2021": {
+          "transaction_count": 3,
+          "median_psf": 2658.75,
+          "median_price": 2687000.0
+        },
+        "2022": {
+          "transaction_count": 2,
+          "median_psf": 1875.11,
+          "median_price": 1408500.0
+        },
+        "2023": {
+          "transaction_count": 6,
+          "median_psf": 1790.6,
+          "median_price": 1844500.0
+        },
+        "2024": {
+          "transaction_count": 5,
+          "median_psf": 1415.48,
+          "median_price": 1097000.0
+        },
+        "2025": {
+          "transaction_count": 3,
+          "median_psf": 2325.44,
+          "median_price": 1464000.0
+        }
+      }
+    },
+    "Orchard Heritage": {
+      "project_name": "Orchard Heritage",
+      "district": "D09",
+      "transaction_count": 31,
+      "median_psf": 1830.86,
+      "median_price": 1665000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 4,
+          "median_psf": 2199.56,
+          "median_price": 1429000.0
+        },
+        "2021": {
+          "transaction_count": 1,
+          "median_psf": 1552.26,
+          "median_price": 1203000.0
+        },
+        "2022": {
+          "transaction_count": 6,
+          "median_psf": 1691.82,
+          "median_price": 1638500.0
+        },
+        "2023": {
+          "transaction_count": 5,
+          "median_psf": 2183.1,
+          "median_price": 1550000.0
+        },
+        "2024": {
+          "transaction_count": 7,
+          "median_psf": 1830.86,
+          "median_price": 1851000.0
+        },
+        "2025": {
+          "transaction_count": 8,
+          "median_psf": 2059.82,
+          "median_price": 2152000.0
+        }
+      }
+    },
+    "Holland Village Loft": {
+      "project_name": "Holland Village Loft",
+      "district": "D10",
+      "transaction_count": 22,
+      "median_psf": 2089.18,
+      "median_price": 1830000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 3,
+          "median_psf": 2077.7,
+          "median_price": 2059000.0
+        },
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 1946.68,
+          "median_price": 1917000.0
+        },
+        "2022": {
+          "transaction_count": 3,
+          "median_psf": 1470.0,
+          "median_price": 1176000.0
+        },
+        "2023": {
+          "transaction_count": 2,
+          "median_psf": 2153.24,
+          "median_price": 2174000.0
+        },
+        "2024": {
+          "transaction_count": 4,
+          "median_psf": 2219.36,
+          "median_price": 1694000.0
+        },
+        "2025": {
+          "transaction_count": 8,
+          "median_psf": 2131.93,
+          "median_price": 1755000.0
+        }
+      }
+    },
+    "Ardmore Park": {
+      "project_name": "Ardmore Park",
+      "district": "D10",
+      "transaction_count": 21,
+      "median_psf": 1930.67,
+      "median_price": 1704000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 2662.58,
+          "median_price": 2825000.0
+        },
+        "2021": {
+          "transaction_count": 4,
+          "median_psf": 1760.6,
+          "median_price": 1953000.0
+        },
+        "2022": {
+          "transaction_count": 1,
+          "median_psf": 1845.71,
+          "median_price": 969000.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 1843.63,
+          "median_price": 1674000.0
+        },
+        "2024": {
+          "transaction_count": 3,
+          "median_psf": 1930.67,
+          "median_price": 1448000.0
+        },
+        "2025": {
+          "transaction_count": 9,
+          "median_psf": 1987.56,
+          "median_price": 1846000.0
+        }
+      }
+    },
+    "Redhill Peak": {
+      "project_name": "Redhill Peak",
+      "district": "D03",
+      "transaction_count": 24,
+      "median_psf": 2021.55,
+      "median_price": 1832500.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 2044.26,
+          "median_price": 1611000.0
+        },
+        "2021": {
+          "transaction_count": 1,
+          "median_psf": 1542.04,
+          "median_price": 1559000.0
+        },
+        "2022": {
+          "transaction_count": 4,
+          "median_psf": 1863.71,
+          "median_price": 1525000.0
+        },
+        "2024": {
+          "transaction_count": 8,
+          "median_psf": 2089.69,
+          "median_price": 2044000.0
+        },
+        "2025": {
+          "transaction_count": 9,
+          "median_psf": 2263.65,
+          "median_price": 1531000.0
+        }
+      }
+    },
+    "East Coast Parkview": {
+      "project_name": "East Coast Parkview",
+      "district": "D15",
+      "transaction_count": 17,
+      "median_psf": 1975.92,
+      "median_price": 1840000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 3,
+          "median_psf": 2108.38,
+          "median_price": 2131000.0
+        },
+        "2021": {
+          "transaction_count": 1,
+          "median_psf": 2800.0,
+          "median_price": 1624000.0
+        },
+        "2023": {
+          "transaction_count": 4,
+          "median_psf": 1615.17,
+          "median_price": 1632500.0
+        },
+        "2024": {
+          "transaction_count": 4,
+          "median_psf": 2138.31,
+          "median_price": 2278000.0
+        },
+        "2025": {
+          "transaction_count": 5,
+          "median_psf": 1891.8,
+          "median_price": 1975000.0
+        }
+      }
+    },
+    "Geylang Quay": {
+      "project_name": "Geylang Quay",
+      "district": "D14",
+      "transaction_count": 28,
+      "median_psf": 1968.47,
+      "median_price": 1624500.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 1646.67,
+          "median_price": 1235000.0
+        },
+        "2022": {
+          "transaction_count": 5,
+          "median_psf": 1769.31,
+          "median_price": 1399000.0
+        },
+        "2023": {
+          "transaction_count": 5,
+          "median_psf": 2541.84,
+          "median_price": 2320000.0
+        },
+        "2024": {
+          "transaction_count": 8,
+          "median_psf": 1963.66,
+          "median_price": 1379500.0
+        },
+        "2025": {
+          "transaction_count": 9,
+          "median_psf": 1931.85,
+          "median_price": 1973000.0
+        }
+      }
+    },
+    "Keppel Bay View": {
+      "project_name": "Keppel Bay View",
+      "district": "D04",
+      "transaction_count": 20,
+      "median_psf": 2439.84,
+      "median_price": 2415500.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 3,
+          "median_psf": 2708.77,
+          "median_price": 2874000.0
+        },
+        "2021": {
+          "transaction_count": 1,
+          "median_psf": 1672.67,
+          "median_price": 1624000.0
+        },
+        "2022": {
+          "transaction_count": 1,
+          "median_psf": 2517.73,
+          "median_price": 2748000.0
+        },
+        "2023": {
+          "transaction_count": 2,
+          "median_psf": 1841.61,
+          "median_price": 2508500.0
+        },
+        "2024": {
+          "transaction_count": 4,
+          "median_psf": 2576.14,
+          "median_price": 2556500.0
+        },
+        "2025": {
+          "transaction_count": 9,
+          "median_psf": 2446.67,
+          "median_price": 2352000.0
+        }
+      }
+    },
+    "Toa Payoh Central": {
+      "project_name": "Toa Payoh Central",
+      "district": "D12",
+      "transaction_count": 30,
+      "median_psf": 1768.37,
+      "median_price": 1832500.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 1463.44,
+          "median_price": 1421000.0
+        },
+        "2021": {
+          "transaction_count": 4,
+          "median_psf": 1909.83,
+          "median_price": 2335500.0
+        },
+        "2022": {
+          "transaction_count": 2,
+          "median_psf": 1738.47,
+          "median_price": 1359000.0
+        },
+        "2023": {
+          "transaction_count": 4,
+          "median_psf": 1733.15,
+          "median_price": 2270000.0
+        },
+        "2024": {
+          "transaction_count": 6,
+          "median_psf": 1948.45,
+          "median_price": 1316500.0
+        },
+        "2025": {
+          "transaction_count": 13,
+          "median_psf": 1603.43,
+          "median_price": 1823000.0
+        }
+      }
+    },
+    "Hillview Heights": {
+      "project_name": "Hillview Heights",
+      "district": "D23",
+      "transaction_count": 27,
+      "median_psf": 2063.47,
+      "median_price": 1572000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 1671.47,
+          "median_price": 1623000.0
+        },
+        "2021": {
+          "transaction_count": 4,
+          "median_psf": 2174.4,
+          "median_price": 1813000.0
+        },
+        "2022": {
+          "transaction_count": 3,
+          "median_psf": 1872.0,
+          "median_price": 1859000.0
+        },
+        "2023": {
+          "transaction_count": 7,
+          "median_psf": 2393.48,
+          "median_price": 1194000.0
+        },
+        "2024": {
+          "transaction_count": 4,
+          "median_psf": 2063.24,
+          "median_price": 1676500.0
+        },
+        "2025": {
+          "transaction_count": 8,
+          "median_psf": 1944.07,
+          "median_price": 1693500.0
+        }
+      }
+    },
+    "Bukit Timah Grove": {
+      "project_name": "Bukit Timah Grove",
+      "district": "D21",
+      "transaction_count": 20,
+      "median_psf": 1862.45,
+      "median_price": 1785000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 1769.64,
+          "median_price": 1385500.0
+        },
+        "2021": {
+          "transaction_count": 3,
+          "median_psf": 1633.55,
+          "median_price": 1266000.0
+        },
+        "2023": {
+          "transaction_count": 4,
+          "median_psf": 2174.7,
+          "median_price": 1790500.0
+        },
+        "2024": {
+          "transaction_count": 1,
+          "median_psf": 1989.09,
+          "median_price": 1094000.0
+        },
+        "2025": {
+          "transaction_count": 10,
+          "median_psf": 1839.28,
+          "median_price": 1822500.0
+        }
+      }
+    },
+    "Macpherson Park": {
+      "project_name": "Macpherson Park",
+      "district": "D13",
+      "transaction_count": 14,
+      "median_psf": 1837.8,
+      "median_price": 1689500.0,
+      "by_year": {
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 1781.18,
+          "median_price": 1304000.0
+        },
+        "2022": {
+          "transaction_count": 1,
+          "median_psf": 1316.36,
+          "median_price": 1810000.0
+        },
+        "2023": {
+          "transaction_count": 2,
+          "median_psf": 1514.98,
+          "median_price": 1290000.0
+        },
+        "2024": {
+          "transaction_count": 4,
+          "median_psf": 2483.68,
+          "median_price": 1539500.0
+        },
+        "2025": {
+          "transaction_count": 5,
+          "median_psf": 2020.6,
+          "median_price": 1797000.0
+        }
+      }
+    },
+    "Paterson Residences": {
+      "project_name": "Paterson Residences",
+      "district": "D09",
+      "transaction_count": 22,
+      "median_psf": 1837.43,
+      "median_price": 1517000.0,
+      "by_year": {
+        "2021": {
+          "transaction_count": 4,
+          "median_psf": 1728.39,
+          "median_price": 1108500.0
+        },
+        "2022": {
+          "transaction_count": 2,
+          "median_psf": 1245.31,
+          "median_price": 1370500.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 2127.31,
+          "median_price": 1596000.0
+        },
+        "2024": {
+          "transaction_count": 6,
+          "median_psf": 2279.88,
+          "median_price": 2243000.0
+        },
+        "2025": {
+          "transaction_count": 7,
+          "median_psf": 1705.63,
+          "median_price": 1322000.0
+        }
+      }
+    },
+    "Upper Thomson Residences": {
+      "project_name": "Upper Thomson Residences",
+      "district": "D26",
+      "transaction_count": 25,
+      "median_psf": 1721.33,
+      "median_price": 1493000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 3,
+          "median_psf": 1977.33,
+          "median_price": 1948000.0
+        },
+        "2021": {
+          "transaction_count": 1,
+          "median_psf": 2560.0,
+          "median_price": 1408000.0
+        },
+        "2022": {
+          "transaction_count": 3,
+          "median_psf": 2019.77,
+          "median_price": 1961000.0
+        },
+        "2023": {
+          "transaction_count": 4,
+          "median_psf": 1773.17,
+          "median_price": 2069500.0
+        },
+        "2024": {
+          "transaction_count": 5,
+          "median_psf": 1580.35,
+          "median_price": 1141000.0
+        },
+        "2025": {
+          "transaction_count": 9,
+          "median_psf": 1474.3,
+          "median_price": 1291000.0
+        }
+      }
+    },
+    "Eunos Ville": {
+      "project_name": "Eunos Ville",
+      "district": "D14",
+      "transaction_count": 19,
+      "median_psf": 2101.72,
+      "median_price": 2215000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 2171.99,
+          "median_price": 2109000.0
+        },
+        "2021": {
+          "transaction_count": 5,
+          "median_psf": 1736.56,
+          "median_price": 2215000.0
+        },
+        "2022": {
+          "transaction_count": 3,
+          "median_psf": 1741.22,
+          "median_price": 2281000.0
+        },
+        "2023": {
+          "transaction_count": 1,
+          "median_psf": 2703.02,
+          "median_price": 2949000.0
+        },
+        "2024": {
+          "transaction_count": 5,
+          "median_psf": 2101.72,
+          "median_price": 1219000.0
+        },
+        "2025": {
+          "transaction_count": 4,
+          "median_psf": 2616.38,
+          "median_price": 2375000.0
+        }
+      }
+    },
+    "Yishun Emerald": {
+      "project_name": "Yishun Emerald",
+      "district": "D27",
+      "transaction_count": 28,
+      "median_psf": 2104.62,
+      "median_price": 2019500.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 3,
+          "median_psf": 1616.4,
+          "median_price": 2024000.0
+        },
+        "2021": {
+          "transaction_count": 6,
+          "median_psf": 2145.86,
+          "median_price": 1795000.0
+        },
+        "2022": {
+          "transaction_count": 3,
+          "median_psf": 2212.92,
+          "median_price": 2193000.0
+        },
+        "2023": {
+          "transaction_count": 4,
+          "median_psf": 2260.58,
+          "median_price": 1814000.0
+        },
+        "2024": {
+          "transaction_count": 3,
+          "median_psf": 1994.68,
+          "median_price": 2117000.0
+        },
+        "2025": {
+          "transaction_count": 9,
+          "median_psf": 2088.95,
+          "median_price": 1930000.0
+        }
+      }
+    },
+    "Botanic Gardens Residences": {
+      "project_name": "Botanic Gardens Residences",
+      "district": "D10",
+      "transaction_count": 17,
+      "median_psf": 1696.39,
+      "median_price": 1817000.0,
+      "by_year": {
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 1275.01,
+          "median_price": 1390500.0
+        },
+        "2022": {
+          "transaction_count": 1,
+          "median_psf": 1366.17,
+          "median_price": 1817000.0
+        },
+        "2023": {
+          "transaction_count": 4,
+          "median_psf": 2102.5,
+          "median_price": 1997000.0
+        },
+        "2024": {
+          "transaction_count": 8,
+          "median_psf": 1737.29,
+          "median_price": 1871000.0
+        },
+        "2025": {
+          "transaction_count": 2,
+          "median_psf": 1734.32,
+          "median_price": 1719000.0
+        }
+      }
+    },
+    "Bukit Batok West": {
+      "project_name": "Bukit Batok West",
+      "district": "D23",
+      "transaction_count": 14,
+      "median_psf": 1766.68,
+      "median_price": 1420000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 2448.85,
+          "median_price": 3258000.0
+        },
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 1596.96,
+          "median_price": 1379500.0
+        },
+        "2022": {
+          "transaction_count": 3,
+          "median_psf": 2315.25,
+          "median_price": 2041000.0
+        },
+        "2023": {
+          "transaction_count": 1,
+          "median_psf": 1325.46,
+          "median_price": 1314000.0
+        },
+        "2024": {
+          "transaction_count": 1,
+          "median_psf": 1562.31,
+          "median_price": 1517000.0
+        },
+        "2025": {
+          "transaction_count": 6,
+          "median_psf": 1346.89,
+          "median_price": 1321500.0
+        }
+      }
+    },
+    "Sixth Avenue Suites": {
+      "project_name": "Sixth Avenue Suites",
+      "district": "D10",
+      "transaction_count": 24,
+      "median_psf": 2047.45,
+      "median_price": 1778500.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 5,
+          "median_psf": 2097.88,
+          "median_price": 1393000.0
+        },
+        "2021": {
+          "transaction_count": 1,
+          "median_psf": 2313.04,
+          "median_price": 3030000.0
+        },
+        "2022": {
+          "transaction_count": 2,
+          "median_psf": 1904.53,
+          "median_price": 1700500.0
+        },
+        "2023": {
+          "transaction_count": 2,
+          "median_psf": 1961.08,
+          "median_price": 1471000.0
+        },
+        "2024": {
+          "transaction_count": 7,
+          "median_psf": 1597.75,
+          "median_price": 2093000.0
+        },
+        "2025": {
+          "transaction_count": 7,
+          "median_psf": 1997.03,
+          "median_price": 2019000.0
+        }
+      }
+    },
+    "Bedok Reservoir Views": {
+      "project_name": "Bedok Reservoir Views",
+      "district": "D16",
+      "transaction_count": 16,
+      "median_psf": 1909.3,
+      "median_price": 1342000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 2234.16,
+          "median_price": 2402000.0
+        },
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 2011.8,
+          "median_price": 1438000.0
+        },
+        "2022": {
+          "transaction_count": 3,
+          "median_psf": 1611.04,
+          "median_price": 1337000.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 1324.92,
+          "median_price": 1313000.0
+        },
+        "2024": {
+          "transaction_count": 4,
+          "median_psf": 2119.86,
+          "median_price": 1522000.0
+        },
+        "2025": {
+          "transaction_count": 2,
+          "median_psf": 1852.28,
+          "median_price": 1074500.0
+        }
+      }
+    },
+    "Jurong Lake District": {
+      "project_name": "Jurong Lake District",
+      "district": "D22",
+      "transaction_count": 24,
+      "median_psf": 2058.49,
+      "median_price": 2005000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 3,
+          "median_psf": 1500.0,
+          "median_price": 1554000.0
+        },
+        "2021": {
+          "transaction_count": 1,
+          "median_psf": 1430.65,
+          "median_price": 1446000.0
+        },
+        "2022": {
+          "transaction_count": 1,
+          "median_psf": 2262.67,
+          "median_price": 1697000.0
+        },
+        "2023": {
+          "transaction_count": 6,
+          "median_psf": 2058.49,
+          "median_price": 2207000.0
+        },
+        "2024": {
+          "transaction_count": 2,
+          "median_psf": 2509.59,
+          "median_price": 3026500.0
+        },
+        "2025": {
+          "transaction_count": 11,
+          "median_psf": 2044.0,
+          "median_price": 1816000.0
+        }
+      }
+    },
+    "Scotts Tower": {
+      "project_name": "Scotts Tower",
+      "district": "D09",
+      "transaction_count": 18,
+      "median_psf": 2003.04,
+      "median_price": 1618000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 1749.31,
+          "median_price": 1465500.0
+        },
+        "2021": {
+          "transaction_count": 4,
+          "median_psf": 1974.75,
+          "median_price": 1102000.0
+        },
+        "2022": {
+          "transaction_count": 2,
+          "median_psf": 2119.56,
+          "median_price": 2058000.0
+        },
+        "2023": {
+          "transaction_count": 1,
+          "median_psf": 1229.07,
+          "median_price": 1020000.0
+        },
+        "2024": {
+          "transaction_count": 3,
+          "median_psf": 2294.18,
+          "median_price": 2340000.0
+        },
+        "2025": {
+          "transaction_count": 6,
+          "median_psf": 2003.04,
+          "median_price": 1478500.0
+        }
+      }
+    },
+    "Balmoral Heights": {
+      "project_name": "Balmoral Heights",
+      "district": "D10",
+      "transaction_count": 12,
+      "median_psf": 2290.69,
+      "median_price": 1886000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 2155.1,
+          "median_price": 1931500.0
+        },
+        "2021": {
+          "transaction_count": 1,
+          "median_psf": 1326.75,
+          "median_price": 1738000.0
+        },
+        "2022": {
+          "transaction_count": 2,
+          "median_psf": 2719.53,
+          "median_price": 2782500.0
+        },
+        "2024": {
+          "transaction_count": 2,
+          "median_psf": 2032.44,
+          "median_price": 1511000.0
+        },
+        "2025": {
+          "transaction_count": 5,
+          "median_psf": 2433.55,
+          "median_price": 1468000.0
+        }
+      }
+    },
+    "West Coast Vale": {
+      "project_name": "West Coast Vale",
+      "district": "D05",
+      "transaction_count": 20,
+      "median_psf": 1996.32,
+      "median_price": 1816000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 1678.22,
+          "median_price": 1723000.0
+        },
+        "2021": {
+          "transaction_count": 3,
+          "median_psf": 1940.78,
+          "median_price": 1685000.0
+        },
+        "2022": {
+          "transaction_count": 1,
+          "median_psf": 2667.95,
+          "median_price": 2764000.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 1697.33,
+          "median_price": 1291000.0
+        },
+        "2024": {
+          "transaction_count": 5,
+          "median_psf": 2490.67,
+          "median_price": 1868000.0
+        },
+        "2025": {
+          "transaction_count": 6,
+          "median_psf": 1842.27,
+          "median_price": 1851500.0
+        }
+      }
+    },
+    "One-North Loft": {
+      "project_name": "One-North Loft",
+      "district": "D05",
+      "transaction_count": 18,
+      "median_psf": 1682.66,
+      "median_price": 1470000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 1365.6,
+          "median_price": 1326000.0
+        },
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 2086.41,
+          "median_price": 2174000.0
+        },
+        "2022": {
+          "transaction_count": 2,
+          "median_psf": 2225.74,
+          "median_price": 1741000.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 1566.54,
+          "median_price": 1553000.0
+        },
+        "2024": {
+          "transaction_count": 5,
+          "median_psf": 2019.17,
+          "median_price": 1858000.0
+        },
+        "2025": {
+          "transaction_count": 5,
+          "median_psf": 1500.85,
+          "median_price": 1273000.0
+        }
+      }
+    },
+    "Nassim Park": {
+      "project_name": "Nassim Park",
+      "district": "D10",
+      "transaction_count": 17,
+      "median_psf": 1638.32,
+      "median_price": 1545000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 2297.35,
+          "median_price": 2322000.0
+        },
+        "2021": {
+          "transaction_count": 4,
+          "median_psf": 1555.48,
+          "median_price": 1135500.0
+        },
+        "2022": {
+          "transaction_count": 2,
+          "median_psf": 2030.98,
+          "median_price": 1821500.0
+        },
+        "2023": {
+          "transaction_count": 2,
+          "median_psf": 2528.01,
+          "median_price": 3112500.0
+        },
+        "2024": {
+          "transaction_count": 2,
+          "median_psf": 1288.39,
+          "median_price": 1336000.0
+        },
+        "2025": {
+          "transaction_count": 6,
+          "median_psf": 1544.18,
+          "median_price": 1599000.0
+        }
+      }
+    },
+    "Shenton Way Suites": {
+      "project_name": "Shenton Way Suites",
+      "district": "D01",
+      "transaction_count": 18,
+      "median_psf": 2157.51,
+      "median_price": 1650500.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 2389.63,
+          "median_price": 2385000.0
+        },
+        "2021": {
+          "transaction_count": 3,
+          "median_psf": 1802.91,
+          "median_price": 1368000.0
+        },
+        "2022": {
+          "transaction_count": 2,
+          "median_psf": 2360.97,
+          "median_price": 2498000.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 2057.97,
+          "median_price": 2131000.0
+        },
+        "2024": {
+          "transaction_count": 2,
+          "median_psf": 2583.14,
+          "median_price": 1996500.0
+        },
+        "2025": {
+          "transaction_count": 6,
+          "median_psf": 2112.64,
+          "median_price": 1426000.0
+        }
+      }
+    },
+    "The Orchid Residences": {
+      "project_name": "The Orchid Residences",
+      "district": "D19",
+      "transaction_count": 21,
+      "median_psf": 1906.12,
+      "median_price": 1769000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 2062.5,
+          "median_price": 1650000.0
+        },
+        "2021": {
+          "transaction_count": 1,
+          "median_psf": 2252.54,
+          "median_price": 2187000.0
+        },
+        "2022": {
+          "transaction_count": 4,
+          "median_psf": 1744.03,
+          "median_price": 1571000.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 1528.6,
+          "median_price": 1268000.0
+        },
+        "2024": {
+          "transaction_count": 4,
+          "median_psf": 2002.53,
+          "median_price": 1956000.0
+        },
+        "2025": {
+          "transaction_count": 8,
+          "median_psf": 2260.96,
+          "median_price": 2095000.0
+        }
+      }
+    },
+    "Leng Kee Court": {
+      "project_name": "Leng Kee Court",
+      "district": "D03",
+      "transaction_count": 16,
+      "median_psf": 2091.58,
+      "median_price": 2181000.0,
+      "by_year": {
+        "2021": {
+          "transaction_count": 1,
+          "median_psf": 2662.71,
+          "median_price": 2692000.0
+        },
+        "2022": {
+          "transaction_count": 6,
+          "median_psf": 2108.07,
+          "median_price": 1894000.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 1728.75,
+          "median_price": 1762000.0
+        },
+        "2024": {
+          "transaction_count": 3,
+          "median_psf": 2331.06,
+          "median_price": 2474000.0
+        },
+        "2025": {
+          "transaction_count": 3,
+          "median_psf": 2119.31,
+          "median_price": 2557000.0
+        }
+      }
+    },
+    "Woodlands Cascade": {
+      "project_name": "Woodlands Cascade",
+      "district": "D25",
+      "transaction_count": 20,
+      "median_psf": 2211.17,
+      "median_price": 1699500.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 1226.67,
+          "median_price": 1656000.0
+        },
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 1860.11,
+          "median_price": 1805000.0
+        },
+        "2022": {
+          "transaction_count": 1,
+          "median_psf": 2435.05,
+          "median_price": 2414000.0
+        },
+        "2023": {
+          "transaction_count": 6,
+          "median_psf": 2249.65,
+          "median_price": 1735000.0
+        },
+        "2024": {
+          "transaction_count": 5,
+          "median_psf": 1733.29,
+          "median_price": 2198000.0
+        },
+        "2025": {
+          "transaction_count": 5,
+          "median_psf": 1747.73,
+          "median_price": 1368000.0
+        }
+      }
+    },
+    "Queenstown Vista": {
+      "project_name": "Queenstown Vista",
+      "district": "D03",
+      "transaction_count": 20,
+      "median_psf": 2144.67,
+      "median_price": 1687000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 2072.65,
+          "median_price": 2513500.0
+        },
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 1625.66,
+          "median_price": 1910000.0
+        },
+        "2022": {
+          "transaction_count": 1,
+          "median_psf": 2767.14,
+          "median_price": 3874000.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 2238.81,
+          "median_price": 1311000.0
+        },
+        "2024": {
+          "transaction_count": 7,
+          "median_psf": 1868.73,
+          "median_price": 1699000.0
+        },
+        "2025": {
+          "transaction_count": 5,
+          "median_psf": 2295.17,
+          "median_price": 1436000.0
+        }
+      }
+    },
+    "Grange Road Residences": {
+      "project_name": "Grange Road Residences",
+      "district": "D09",
+      "transaction_count": 20,
+      "median_psf": 2243.69,
+      "median_price": 1749500.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 2084.72,
+          "median_price": 2247000.0
+        },
+        "2021": {
+          "transaction_count": 1,
+          "median_psf": 2252.9,
+          "median_price": 1746000.0
+        },
+        "2022": {
+          "transaction_count": 2,
+          "median_psf": 1832.15,
+          "median_price": 1609500.0
+        },
+        "2023": {
+          "transaction_count": 5,
+          "median_psf": 2354.95,
+          "median_price": 1753000.0
+        },
+        "2024": {
+          "transaction_count": 7,
+          "median_psf": 2431.3,
+          "median_price": 1883000.0
+        },
+        "2025": {
+          "transaction_count": 3,
+          "median_psf": 1728.02,
+          "median_price": 1382000.0
+        }
+      }
+    },
+    "Raffles Place Tower": {
+      "project_name": "Raffles Place Tower",
+      "district": "D01",
+      "transaction_count": 20,
+      "median_psf": 2537.72,
+      "median_price": 2551500.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 2547.09,
+          "median_price": 2913000.0
+        },
+        "2022": {
+          "transaction_count": 3,
+          "median_psf": 2522.52,
+          "median_price": 2614000.0
+        },
+        "2023": {
+          "transaction_count": 5,
+          "median_psf": 2606.6,
+          "median_price": 2479000.0
+        },
+        "2024": {
+          "transaction_count": 5,
+          "median_psf": 2502.9,
+          "median_price": 2593000.0
+        },
+        "2025": {
+          "transaction_count": 5,
+          "median_psf": 2552.92,
+          "median_price": 2581000.0
+        }
+      }
+    },
+    "Beauty World Residences": {
+      "project_name": "Beauty World Residences",
+      "district": "D21",
+      "transaction_count": 20,
+      "median_psf": 1742.92,
+      "median_price": 1654500.0,
+      "by_year": {
+        "2021": {
+          "transaction_count": 1,
+          "median_psf": 1635.43,
+          "median_price": 1588000.0
+        },
+        "2022": {
+          "transaction_count": 5,
+          "median_psf": 1709.75,
+          "median_price": 1660000.0
+        },
+        "2023": {
+          "transaction_count": 2,
+          "median_psf": 1994.05,
+          "median_price": 2415500.0
+        },
+        "2024": {
+          "transaction_count": 5,
+          "median_psf": 2100.86,
+          "median_price": 2152000.0
+        },
+        "2025": {
+          "transaction_count": 7,
+          "median_psf": 1475.8,
+          "median_price": 1433000.0
+        }
+      }
+    },
+    "Tampines Grande": {
+      "project_name": "Tampines Grande",
+      "district": "D18",
+      "transaction_count": 19,
+      "median_psf": 1792.0,
+      "median_price": 1424000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 2278.61,
+          "median_price": 3190000.0
+        },
+        "2022": {
+          "transaction_count": 4,
+          "median_psf": 1608.41,
+          "median_price": 1564000.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 2669.92,
+          "median_price": 1354000.0
+        },
+        "2024": {
+          "transaction_count": 5,
+          "median_psf": 2054.0,
+          "median_price": 1344000.0
+        },
+        "2025": {
+          "transaction_count": 5,
+          "median_psf": 1578.95,
+          "median_price": 1424000.0
+        }
+      }
+    },
+    "Dover Parkview": {
+      "project_name": "Dover Parkview",
+      "district": "D05",
+      "transaction_count": 11,
+      "median_psf": 1872.73,
+      "median_price": 1368000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 1380.02,
+          "median_price": 1340000.0
+        },
+        "2022": {
+          "transaction_count": 1,
+          "median_psf": 2252.77,
+          "median_price": 1307000.0
+        },
+        "2023": {
+          "transaction_count": 1,
+          "median_psf": 1408.86,
+          "median_price": 1368000.0
+        },
+        "2024": {
+          "transaction_count": 4,
+          "median_psf": 1701.99,
+          "median_price": 1324500.0
+        },
+        "2025": {
+          "transaction_count": 4,
+          "median_psf": 2474.54,
+          "median_price": 2282500.0
+        }
+      }
+    },
+    "Admiralty Parkview": {
+      "project_name": "Admiralty Parkview",
+      "district": "D25",
+      "transaction_count": 23,
+      "median_psf": 2026.67,
+      "median_price": 1604000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 2067.41,
+          "median_price": 1562000.0
+        },
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 1758.52,
+          "median_price": 1470500.0
+        },
+        "2022": {
+          "transaction_count": 5,
+          "median_psf": 1706.88,
+          "median_price": 1605000.0
+        },
+        "2023": {
+          "transaction_count": 5,
+          "median_psf": 2309.68,
+          "median_price": 1790000.0
+        },
+        "2024": {
+          "transaction_count": 7,
+          "median_psf": 2026.67,
+          "median_price": 1544000.0
+        },
+        "2025": {
+          "transaction_count": 2,
+          "median_psf": 2523.77,
+          "median_price": 1882500.0
+        }
+      }
+    },
+    "Buona Vista Court": {
+      "project_name": "Buona Vista Court",
+      "district": "D05",
+      "transaction_count": 17,
+      "median_psf": 2052.31,
+      "median_price": 1678000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 2203.01,
+          "median_price": 2930000.0
+        },
+        "2021": {
+          "transaction_count": 1,
+          "median_psf": 2011.0,
+          "median_price": 2194000.0
+        },
+        "2022": {
+          "transaction_count": 1,
+          "median_psf": 1746.78,
+          "median_price": 1397000.0
+        },
+        "2023": {
+          "transaction_count": 2,
+          "median_psf": 1373.26,
+          "median_price": 1422000.0
+        },
+        "2024": {
+          "transaction_count": 1,
+          "median_psf": 2110.58,
+          "median_price": 2240000.0
+        },
+        "2025": {
+          "transaction_count": 11,
+          "median_psf": 2129.42,
+          "median_price": 1458000.0
+        }
+      }
+    },
+    "Tion Bahru Loft": {
+      "project_name": "Tion Bahru Loft",
+      "district": "D03",
+      "transaction_count": 28,
+      "median_psf": 2369.08,
+      "median_price": 2167000.0,
+      "by_year": {
+        "2021": {
+          "transaction_count": 3,
+          "median_psf": 2345.3,
+          "median_price": 1290000.0
+        },
+        "2022": {
+          "transaction_count": 3,
+          "median_psf": 2392.86,
+          "median_price": 2141000.0
+        },
+        "2023": {
+          "transaction_count": 7,
+          "median_psf": 2187.56,
+          "median_price": 2321000.0
+        },
+        "2024": {
+          "transaction_count": 7,
+          "median_psf": 1858.06,
+          "median_price": 1826000.0
+        },
+        "2025": {
+          "transaction_count": 8,
+          "median_psf": 2502.32,
+          "median_price": 2594000.0
+        }
+      }
+    },
+    "Ghim Moh Green": {
+      "project_name": "Ghim Moh Green",
+      "district": "D10",
+      "transaction_count": 19,
+      "median_psf": 1989.06,
+      "median_price": 1417000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 2224.56,
+          "median_price": 2427000.0
+        },
+        "2021": {
+          "transaction_count": 4,
+          "median_psf": 2053.81,
+          "median_price": 1324500.0
+        },
+        "2022": {
+          "transaction_count": 1,
+          "median_psf": 2791.55,
+          "median_price": 1982000.0
+        },
+        "2023": {
+          "transaction_count": 4,
+          "median_psf": 2025.45,
+          "median_price": 1396500.0
+        },
+        "2024": {
+          "transaction_count": 3,
+          "median_psf": 1755.17,
+          "median_price": 1497000.0
+        },
+        "2025": {
+          "transaction_count": 6,
+          "median_psf": 1494.09,
+          "median_price": 1209500.0
+        }
+      }
+    },
+    "Chin Swee Heights": {
+      "project_name": "Chin Swee Heights",
+      "district": "D03",
+      "transaction_count": 26,
+      "median_psf": 2409.05,
+      "median_price": 2194500.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 3,
+          "median_psf": 2183.57,
+          "median_price": 2207000.0
+        },
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 2476.88,
+          "median_price": 2689500.0
+        },
+        "2022": {
+          "transaction_count": 1,
+          "median_psf": 2323.61,
+          "median_price": 2256000.0
+        },
+        "2023": {
+          "transaction_count": 7,
+          "median_psf": 2199.4,
+          "median_price": 1448000.0
+        },
+        "2024": {
+          "transaction_count": 5,
+          "median_psf": 2685.0,
+          "median_price": 3073000.0
+        },
+        "2025": {
+          "transaction_count": 8,
+          "median_psf": 2581.82,
+          "median_price": 2171000.0
+        }
+      }
+    },
+    "Tanjong Pagar Place": {
+      "project_name": "Tanjong Pagar Place",
+      "district": "D02",
+      "transaction_count": 24,
+      "median_psf": 2194.93,
+      "median_price": 2021000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 2175.53,
+          "median_price": 2567500.0
+        },
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 2382.51,
+          "median_price": 2634000.0
+        },
+        "2022": {
+          "transaction_count": 4,
+          "median_psf": 2073.34,
+          "median_price": 2262500.0
+        },
+        "2023": {
+          "transaction_count": 8,
+          "median_psf": 2223.22,
+          "median_price": 1779500.0
+        },
+        "2024": {
+          "transaction_count": 3,
+          "median_psf": 1747.1,
+          "median_price": 1732000.0
+        },
+        "2025": {
+          "transaction_count": 5,
+          "median_psf": 2240.37,
+          "median_price": 1938000.0
+        }
+      }
+    },
+    "Cecil Street Tower": {
+      "project_name": "Cecil Street Tower",
+      "district": "D01",
+      "transaction_count": 22,
+      "median_psf": 2402.64,
+      "median_price": 2373500.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 2159.26,
+          "median_price": 1586000.0
+        },
+        "2021": {
+          "transaction_count": 3,
+          "median_psf": 2817.25,
+          "median_price": 2491000.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 1989.66,
+          "median_price": 1764000.0
+        },
+        "2024": {
+          "transaction_count": 8,
+          "median_psf": 2447.8,
+          "median_price": 2547000.0
+        },
+        "2025": {
+          "transaction_count": 6,
+          "median_psf": 2125.67,
+          "median_price": 2314500.0
+        }
+      }
+    },
+    "Punggol Waterfront": {
+      "project_name": "Punggol Waterfront",
+      "district": "D19",
+      "transaction_count": 20,
+      "median_psf": 1486.53,
+      "median_price": 1482000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 1413.7,
+          "median_price": 1543000.0
+        },
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 1984.66,
+          "median_price": 1223000.0
+        },
+        "2022": {
+          "transaction_count": 5,
+          "median_psf": 1381.95,
+          "median_price": 759000.0
+        },
+        "2023": {
+          "transaction_count": 1,
+          "median_psf": 2302.67,
+          "median_price": 2328000.0
+        },
+        "2024": {
+          "transaction_count": 5,
+          "median_psf": 1640.18,
+          "median_price": 1626000.0
+        },
+        "2025": {
+          "transaction_count": 6,
+          "median_psf": 1904.6,
+          "median_price": 2036500.0
+        }
+      }
+    },
+    "Siglap Villas": {
+      "project_name": "Siglap Villas",
+      "district": "D15",
+      "transaction_count": 13,
+      "median_psf": 1689.58,
+      "median_price": 1476000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 2698.75,
+          "median_price": 2159000.0
+        },
+        "2022": {
+          "transaction_count": 1,
+          "median_psf": 1689.58,
+          "median_price": 811000.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 1763.75,
+          "median_price": 1444000.0
+        },
+        "2024": {
+          "transaction_count": 5,
+          "median_psf": 1612.51,
+          "median_price": 1771000.0
+        },
+        "2025": {
+          "transaction_count": 3,
+          "median_psf": 1651.25,
+          "median_price": 1321000.0
+        }
+      }
+    },
+    "Irrawaddy Residences": {
+      "project_name": "Irrawaddy Residences",
+      "district": "D11",
+      "transaction_count": 17,
+      "median_psf": 1982.5,
+      "median_price": 1624000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 2534.12,
+          "median_price": 2562000.0
+        },
+        "2021": {
+          "transaction_count": 4,
+          "median_psf": 2516.57,
+          "median_price": 1988500.0
+        },
+        "2022": {
+          "transaction_count": 4,
+          "median_psf": 2474.06,
+          "median_price": 2653500.0
+        },
+        "2023": {
+          "transaction_count": 2,
+          "median_psf": 1508.45,
+          "median_price": 1501500.0
+        },
+        "2024": {
+          "transaction_count": 3,
+          "median_psf": 1575.85,
+          "median_price": 1530000.0
+        },
+        "2025": {
+          "transaction_count": 3,
+          "median_psf": 1236.62,
+          "median_price": 1284000.0
+        }
+      }
+    },
+    "Anson Residences": {
+      "project_name": "Anson Residences",
+      "district": "D02",
+      "transaction_count": 12,
+      "median_psf": 2666.32,
+      "median_price": 2448500.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 3160.87,
+          "median_price": 1454000.0
+        },
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 2300.01,
+          "median_price": 1747000.0
+        },
+        "2022": {
+          "transaction_count": 3,
+          "median_psf": 2617.6,
+          "median_price": 2857000.0
+        },
+        "2023": {
+          "transaction_count": 1,
+          "median_psf": 2800.19,
+          "median_price": 2901000.0
+        },
+        "2024": {
+          "transaction_count": 1,
+          "median_psf": 1882.8,
+          "median_price": 2055000.0
+        },
+        "2025": {
+          "transaction_count": 4,
+          "median_psf": 2666.32,
+          "median_price": 2789500.0
+        }
+      }
+    },
+    "Balestier Point": {
+      "project_name": "Balestier Point",
+      "district": "D12",
+      "transaction_count": 18,
+      "median_psf": 1982.66,
+      "median_price": 1708000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 3,
+          "median_psf": 2127.74,
+          "median_price": 1649000.0
+        },
+        "2021": {
+          "transaction_count": 3,
+          "median_psf": 1911.18,
+          "median_price": 1150000.0
+        },
+        "2022": {
+          "transaction_count": 1,
+          "median_psf": 2000.34,
+          "median_price": 2123000.0
+        },
+        "2023": {
+          "transaction_count": 5,
+          "median_psf": 1933.33,
+          "median_price": 1767000.0
+        },
+        "2024": {
+          "transaction_count": 2,
+          "median_psf": 1767.4,
+          "median_price": 1347500.0
+        },
+        "2025": {
+          "transaction_count": 4,
+          "median_psf": 2246.66,
+          "median_price": 2600500.0
+        }
+      }
+    },
+    "Marsiling Grove": {
+      "project_name": "Marsiling Grove",
+      "district": "D25",
+      "transaction_count": 17,
+      "median_psf": 1668.03,
+      "median_price": 1512000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 1,
+          "median_psf": 1823.8,
+          "median_price": 958000.0
+        },
+        "2021": {
+          "transaction_count": 1,
+          "median_psf": 1725.3,
+          "median_price": 1432000.0
+        },
+        "2022": {
+          "transaction_count": 5,
+          "median_psf": 1668.03,
+          "median_price": 1395000.0
+        },
+        "2023": {
+          "transaction_count": 3,
+          "median_psf": 2256.62,
+          "median_price": 2395000.0
+        },
+        "2024": {
+          "transaction_count": 3,
+          "median_psf": 1429.04,
+          "median_price": 1658000.0
+        },
+        "2025": {
+          "transaction_count": 4,
+          "median_psf": 1571.25,
+          "median_price": 1476500.0
+        }
+      }
+    },
+    "Sentosa Cove Villas": {
+      "project_name": "Sentosa Cove Villas",
+      "district": "D04",
+      "transaction_count": 10,
+      "median_psf": 2074.26,
+      "median_price": 1472500.0,
+      "by_year": {
+        "2021": {
+          "transaction_count": 2,
+          "median_psf": 2161.01,
+          "median_price": 1950500.0
+        },
+        "2022": {
+          "transaction_count": 1,
+          "median_psf": 2844.0,
+          "median_price": 1422000.0
+        },
+        "2023": {
+          "transaction_count": 2,
+          "median_psf": 2094.88,
+          "median_price": 979000.0
+        },
+        "2024": {
+          "transaction_count": 2,
+          "median_psf": 2074.26,
+          "median_price": 1855500.0
+        },
+        "2025": {
+          "transaction_count": 3,
+          "median_psf": 2015.48,
+          "median_price": 1857000.0
+        }
+      }
+    },
+    "Little India Lofts": {
+      "project_name": "Little India Lofts",
+      "district": "D08",
+      "transaction_count": 15,
+      "median_psf": 2044.36,
+      "median_price": 1781000.0,
+      "by_year": {
+        "2020": {
+          "transaction_count": 2,
+          "median_psf": 2044.51,
+          "median_price": 1597000.0
+        },
+        "2021": {
+          "transaction_count": 1,
+          "median_psf": 1624.76,
+          "median_price": 780000.0
+        },
+        "2022": {
+          "transaction_count": 1,
+          "median_psf": 2290.07,
+          "median_price": 3276000.0
+        },
+        "2023": {
+          "transaction_count": 4,
+          "median_psf": 1513.96,
+          "median_price": 1536000.0
+        },
+        "2024": {
+          "transaction_count": 4,
+          "median_psf": 1910.17,
+          "median_price": 1978500.0
+        },
+        "2025": {
+          "transaction_count": 3,
+          "median_psf": 2232.39,
+          "median_price": 2517000.0
+        }
+      }
+    }
+  }
+}
