@@ -16,3 +16,5 @@ frontend/out/
 dist/
 build/
 .DS_Store
+docs/
+*.tsbuildinfo
