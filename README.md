@@ -27,6 +27,42 @@ The image builds the Next.js UI as a static export and serves it from the same
 FastAPI process, so the browser hits `/projects`, `/estimate`, etc. on the same
 origin — no CORS needed in Docker.
 
+## Demoing both datasets (two branches)
+
+This repo ships two raw datasets, each wired up on its own branch. The behavior
+can be demonstrated by checking out the branch and running the same single
+Docker command:
+
+| Branch | Raw dataset | Projects | Rows cleaned | Notes |
+|---|---|---|---|---|
+| `main` | `condo_transactions_raw.csv` (generated in-repo, seed 42) | 80 | ~1,605 | The dataset this repo originally shipped with |
+| `use-raw2` | `condo_transactions_raw2.csv` (handed-in) | 12 | ~1,795 | The alternate dataset |
+
+### `main` — the generated dataset
+
+```bash
+git checkout main
+docker compose up --build
+```
+
+This cleans `condo_transactions_raw.csv` (the file produced by
+`generate_raw.py`) and serves the dashboard with **80 projects**.
+
+### `use-raw2` — the handed-in dataset
+
+```bash
+git checkout use-raw2
+docker compose up --build
+```
+
+This branch's `Dockerfile` copies and cleans `condo_transactions_raw2.csv`, so
+it serves the dashboard with the **12 projects** from that file.
+
+> The two branches differ only in the raw input file (and the matching
+> `Dockerfile` lines). Everything else — cleaning rules, API, frontend — is
+> identical. Switching branches and rebuilding the container is all that is
+> needed to flip between datasets.
+
 ## Fallback (no Docker)
 
 ```bash
