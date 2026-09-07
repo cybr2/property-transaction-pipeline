@@ -15,8 +15,8 @@ COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 COPY app ./app
 COPY clean.py ./clean.py
-COPY condo_transactions_raw.csv ./
-RUN python clean.py
+COPY condo_transactions_raw2.csv ./
+RUN python clean.py --raw condo_transactions_raw2.csv
 COPY --from=frontend-build /build/frontend/out ./frontend/out
 EXPOSE 8000
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
